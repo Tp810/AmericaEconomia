@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Economia dos EUA</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="Imagens/Icon-Photoroom.png" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <h1>Economia Global</h1>
+    <p>País escolhido - Estados Unidos da América</p>
+  </header>
+
+  <nav>
+    <a href="#indice">Índice</a>
+    <a href="#introducao">Informações Gerais</a>
+    <a href="#desenvolvimento">Economia</a>
+    <a href="#conclusao">Conclusão</a>
+    <a href="#webgrafia">Webgrafia</a>
+  </nav>
+
+  <main>
+    <section id="indice" class="card">
+      <h2>Índice</h2>
+      <ol>
+        <li>Informações Gerais</li>
+        <li>Economia</li>
+        <li>Conclusão</li>
+        <li>Webgrafia</li>
+      </ol>
+    </section>
+
+    <section id="introducao" class="card">
+      <h2>Informações Gerais</h2>
+      <p><strong>Nome oficial:</strong> United States of America</p>
+      <p><strong>Capital:</strong> Washington, D.C.</p>
+      <p><strong>Localização:</strong> América do Norte</p>
+      <p><strong>População:</strong> <span id="populacao">A carregar...</span></p>
+      <p><strong>Densidade populacional:</strong> <span id="densidade">A carregar...</span></p>
+    </section>
+
+    <section id="desenvolvimento" class="card">
+      <h2>Informações sobre a Economia dos EUA</h2>
+
+      <h3> Classificação</h3>
+      <p>Os EUA é um país <strong>central</strong> na economia mundial.</p>
+
+      <h3> Produto Interno Bruto (PIB)</h3>
+      <p id="pib">PIB total: A carregar...</p>
+      <p id="pibpc">PIB per capita: A carregar...</p>
+      <canvas id="graficoPIB" width="600" height="300"></canvas>
+
+      <h3> Taxa de crescimento económico</h3>
+      <p id="crescimento">A carregar...</p>
+
+      <h3> Taxa de desemprego</h3>
+      <p>Taxa de desemprego aproximada a aumentar (BLS, 2024): <strong>4.0%</strong></p>
+
+      <h3> Saldo da balança comercial</h3>
+      <p>Os EUA apresentam tradicionalmente <strong>défice comercial</strong>.</p>
+
+      <h3> Encontra-se no G20?</h3>
+      <p><strong>Sim</strong>. Os EUA faz parte do G20 ou grupo dos 20 que são formados pelos ministros de finanças e chefes dos bancos centrais das 19 maiores economias do mundo mais a União Africana e União Europeia. </p>
+
+      <h3> Principais parceiros comerciais</h3>
+      <ul>
+        <li>México</li>
+        <li>Canadá</li>
+        <li>China</li>
+        <li>Japão</li>
+        <li>Alemanha</li>
+      </ul>
+
+      <h3> IDH (Índice de Desenvolvimento Humano)</h3>
+      <p>IDH: <strong>0.938</strong> (Muito elevado)</p>
+
+      <h3> Índice de Felicidade</h3>
+      <p>Ranking aproximado: <strong>23º</strong></p>
+    </section>
+
+    <section id="conclusao" class="card">
+      <h2>Conclusão</h2>
+      <p>Os Estados Unidos distinguem-se pela forte inovação tecnológica, grande mercado interno e influência global. No contexto mundial, destacam-se pela liderança em setores como finanças, tecnologia e energia, bem como pela capacidade de atrair talento e investimento. As suas principais vantagens incluem mão de obra qualificada, abundância de recursos naturais e grande poder empresarial. Entre as desvantagens estão as desigualdades sociais, custos elevados de serviços essenciais e a crescente concorrência internacional.</p>
+    </section>
+
+    <section id="webgrafia" class="card">
+      <h2>Webgrafia</h2>
+      <ul>
+        <li>World Bank</li>
+        <li>IMF</li>
+        <li>UNDP</li>
+        <li>Bureau of Labor Statistics</li>
+        <li>World Happiness Report</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+      <p>Aluno: Tomás Pombo</p>
+      <p>Data: 00/11/2025</p>
+      <p>&copy; 2025 Economia Americana | Trabalho educativo</p>
+      <div class="footer-logos">
+          <img class="logo1" src="Imagens/LogoEscola1.png" alt="LogoEscola" width="150">
+          <img class="logo2" src="Imagens/LogoEscola2.png" alt="LogoEscola" width="150">
+      </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
